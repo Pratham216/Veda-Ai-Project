@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { ArrowRight, Loader2, Lock, Mail } from "lucide-react";
@@ -9,6 +9,26 @@ import { api } from "@/lib/api";
 import { useAuthStore } from "@/store/useAuthStore";
 
 export default function LoginPage() {
+  return (
+    <Suspense fallback={<LoginSkeleton />}>
+      <LoginForm />
+    </Suspense>
+  );
+}
+
+function LoginSkeleton() {
+  return (
+    <div className="space-y-4">
+      <div className="h-8 w-2/3 rounded bg-[#F0F0F0] animate-pulse" />
+      <div className="h-4 w-1/2 rounded bg-[#F0F0F0] animate-pulse" />
+      <div className="h-11 rounded-xl bg-[#F0F0F0] animate-pulse" />
+      <div className="h-11 rounded-xl bg-[#F0F0F0] animate-pulse" />
+      <div className="h-11 rounded-full bg-[#181818]/80 animate-pulse" />
+    </div>
+  );
+}
+
+function LoginForm() {
   const router = useRouter();
   const search = useSearchParams();
   const setSession = useAuthStore((s) => s.setSession);
