@@ -1,0 +1,70 @@
+# ============================================================================
+# VedaAI — root .gitignore (applies to both web/ and api/)
+# ============================================================================
+
+# ---- secrets ----------------------------------------------------------------
+# Never commit env files. Use .env.example for the schema.
+.env
+.env.*
+!.env.example
+
+# ---- dependencies -----------------------------------------------------------
+node_modules/
+**/node_modules/
+.pnp/
+.pnp.*
+.yarn/cache
+.yarn/install-state.gz
+.pnpm-store/
+
+# ---- build output -----------------------------------------------------------
+dist/
+build/
+out/
+.next/
+.turbo/
+*.tsbuildinfo
+next-env.d.ts
+
+# ---- logs / runtime ---------------------------------------------------------
+*.log
+.*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# ---- caches -----------------------------------------------------------------
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+.npm/
+
+# ---- testing / coverage -----------------------------------------------------
+coverage/
+.nyc_output/
+
+# ---- editors / IDEs ---------------------------------------------------------
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+
+# ---- OS noise ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# ---- platform configs -------------------------------------------------------
+.vercel/
+.netlify/
+.render/
+
+# ---- local agent / tooling --------------------------------------------------
+.claude/
+*.pem

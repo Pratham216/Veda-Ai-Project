@@ -1,0 +1,79 @@
+﻿{
+    "document":  {
+                     "id":  "0:0",
+                     "name":  "Document",
+                     "type":  "DOCUMENT",
+                     "scrollBehavior":  "SCROLLS",
+                     "children":  [
+                                      {
+                                          "id":  "0:1",
+                                          "name":  "Page 1",
+                                          "type":  "CANVAS",
+                                          "scrollBehavior":  "SCROLLS",
+                                          "children":  [
+                                                           {
+                                                               "id":  "11:522",
+                                                               "name":  "Assignment Creation Flow - Responsive",
+                                                               "type":  "SECTION",
+                                                               "scrollBehavior":  "SCROLLS",
+                                                               "children":  [
+
+                                                                            ],
+                                                               "fills":  [
+                                                                             "@{blendMode=NORMAL; type=SOLID; color=}"
+                                                                         ],
+                                                               "strokes":  [
+                                                                               "@{opacity=0.10000000149011612; blendMode=NORMAL; type=SOLID; color=}"
+                                                                           ],
+                                                               "strokeWeight":  1.0,
+                                                               "strokeAlign":  "INSIDE",
+                                                               "absoluteBoundingBox":  {
+                                                                                           "x":  -36.0,
+                                                                                           "y":  123.0,
+                                                                                           "width":  8743.0,
+                                                                                           "height":  3346.0
+                                                                                       },
+                                                               "absoluteRenderBounds":  {
+                                                                                            "x":  -36.0,
+                                                                                            "y":  123.0,
+                                                                                            "width":  8743.0,
+                                                                                            "height":  3346.0
+                                                                                        },
+                                                               "sectionContentsHidden":  false
+                                                           }
+                                                       ],
+                                          "backgroundColor":  {
+                                                                  "r":  0.11764705926179886,
+                                                                  "g":  0.11764705926179886,
+                                                                  "b":  0.11764705926179886,
+                                                                  "a":  1.0
+                                                              },
+                                          "prototypeStartNodeID":  null,
+                                          "flowStartingPoints":  [
+
+                                                                 ],
+                                          "prototypeDevice":  {
+                                                                  "type":  "NONE",
+                                                                  "rotation":  "NONE"
+                                                              }
+                                      }
+                                  ]
+                 },
+    "components":  {
+
+                   },
+    "componentSets":  {
+
+                      },
+    "schemaVersion":  0,
+    "styles":  {
+
+               },
+    "name":  "VedaAI - Hiring Assignment",
+    "lastModified":  "2026-05-21T11:57:31Z",
+    "thumbnailUrl":  "https://s3-alpha.figma.com/thumbnails/30bc2160-22a9-4f31-87c1-adb3de484fae?X-Amz-Algorithm=AWS4-HMAC-SHA256\u0026X-Amz-Credential=AKIAQ4GOSFWC5PYDOGN2%2F20260524%2Fus-west-2%2Fs3%2Faws4_request\u0026X-Amz-Date=20260524T120000Z\u0026X-Amz-Expires=604800\u0026X-Amz-SignedHeaders=host\u0026X-Amz-Signature=424360406f1837543929339226edd73f95b0f41143ad11322dc5c36509b8430d",
+    "version":  "2356010521285610940",
+    "role":  "viewer",
+    "editorType":  "figma",
+    "linkAccess":  "view"
+}

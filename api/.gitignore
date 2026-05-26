@@ -1,0 +1,26 @@
+# Belt-and-suspenders for the api/ folder. Root .gitignore covers most of this,
+# but having it here too means the api/ folder is portable on its own.
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# dependencies
+node_modules/
+
+# tsc build output
+dist/
+*.tsbuildinfo
+
+# runtime logs the dev scripts write
+.api.log
+*.log
+
+# editor noise
+.vscode/
+.idea/
+
+# OS noise
+.DS_Store
+Thumbs.db
